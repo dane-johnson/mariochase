@@ -1,0 +1,7 @@
+"mariochase"
+{
+  "base" "base"
+  "title" "Mario Chase"
+  "maps" "^mc_"
+  "menusystem" "1"
+}

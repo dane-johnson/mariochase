@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8538"
-	"mapversion" "41"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "41"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1106,82 +1106,6 @@ world
 		editor
 		{
 			"color" "0 172 153"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "9628"
-		side
-		{
-			"id" "2069"
-			"plane" "(768 -768 -320) (0 0 -320) (768 768 -320)"
-			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2068"
-			"plane" "(768 768 -384) (0 0 -384) (768 -768 -384)"
-			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2067"
-			"plane" "(0 0 -384) (768 768 -384) (768 768 -320)"
-			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2066"
-			"plane" "(768 -768 -384) (0 0 -384) (0 0 -320)"
-			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2065"
-			"plane" "(1536 0 -384) (768 -768 -384) (768 -768 -320)"
-			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2064"
-			"plane" "(768 768 -384) (1536 0 -384) (1536 0 -320)"
-			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 223 164"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5194,6 +5118,82 @@ world
 		{
 			"color" "148 217 0"
 			"groupid" "9760"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "9628"
+		side
+		{
+			"id" "2652"
+			"plane" "(768 -768 -320) (0 0 -320) (768 768 -320)"
+			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2651"
+			"plane" "(768 768 -384) (0 0 -384) (768 -768 -384)"
+			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2650"
+			"plane" "(0 0 -384) (768 768 -384) (768 768 -320)"
+			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2649"
+			"plane" "(768 -768 -384) (0 0 -384) (0 0 -320)"
+			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2648"
+			"plane" "(1536 0 -384) (768 -768 -384) (768 -768 -320)"
+			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2647"
+			"plane" "(768 768 -384) (1536 0 -384) (1536 0 -320)"
+			"material" "PHOENIX_STORMS/WIRE/PCB_RED"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 223 164"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
