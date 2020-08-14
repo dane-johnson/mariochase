@@ -1,0 +1,9 @@
+// ------------------------- //
+// Game data for Mario Chase //
+// ------------------------- //
+
+@include "base.fgd"
+
+//Spawn points
+@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_mario : "spawn zone for mario" []
+@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_toad : "spawn zone for toad" []
