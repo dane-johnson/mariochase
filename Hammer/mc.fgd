@@ -7,3 +7,6 @@
 //Spawn points
 @PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_mario : "spawn zone for mario" []
 @PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_toad : "spawn zone for toad" []
+
+//Reset Plane
+@SolidClass base(Targetname, Parentname) = trigger_reset : "used to reset the player to thier last floor position" []
