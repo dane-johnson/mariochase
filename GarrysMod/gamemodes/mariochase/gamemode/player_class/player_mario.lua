@@ -1,4 +1,4 @@
-DEFINE_BASECLASS("player_default")
+DEFINE_BASECLASS("player_mc_base")
 
 local PLAYER = {}
 
